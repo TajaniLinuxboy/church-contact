@@ -1,0 +1,5 @@
+bin/
+inlcude/
+lib/
+lib64
+pyvenv.cfg
