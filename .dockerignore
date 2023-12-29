@@ -1,0 +1,11 @@
+bin/
+inlcude/
+lib/
+lib64
+pyvenv.cfg
+__pycache__/
+*.pyc
+.git
+test/
+*.pytest_cache
+pytest.ini
