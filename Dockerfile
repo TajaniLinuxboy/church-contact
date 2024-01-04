@@ -2,10 +2,10 @@ FROM python:latest
 
 COPY . .
 
-WORKDIR /contactapp
+RUN pip install -r requirements.txt
 
-RUN python install -r requirements.txt
+WORKDIR /churchcontact
 
-CMD ["flask", "run", "-p", "5000"]
+CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
 
-EXPOSE 5000
+EXPOSE 8000

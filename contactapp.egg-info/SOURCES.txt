@@ -1,9 +1,5 @@
 setup.py
-contactapp/__init__.py
-contactapp/app.py
 contactapp.egg-info/PKG-INFO
 contactapp.egg-info/SOURCES.txt
 contactapp.egg-info/dependency_links.txt
 contactapp.egg-info/top_level.txt
-contactapp/tests/__init__.py
-contactapp/tests/test_app.py
