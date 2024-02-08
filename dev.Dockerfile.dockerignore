@@ -10,3 +10,6 @@ test/
 *.pytest_cache
 pytest.ini
 .gitignore
+prod*
+local* 
+dev*
